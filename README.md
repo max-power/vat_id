@@ -1,6 +1,9 @@
-# VatId
+# VAT Identification Number
 
-TODO: Write a gem description
+VAT ID validation. Ships with an ActiveModel validator.
+
+[![Gem Version](https://badge.fury.io/rb/IBAN.png)](http://badge.fury.io/rb/vat_id)
+[![Build Status](https://travis-ci.org/max-power/iban.png?branch=master)](https://travis-ci.org/max-power/vat_id)
 
 ## Installation
 
