@@ -30,6 +30,8 @@ es: '[A-Z0-9]\d{7}[A-Z0-9]' # Spain
 se: '\d{10}01'          # Sweden
 gb: '(\d{9}|\d{12}|GD[0-4]\d{2}|HA[5-9]\d{2})' # UK
 
+eu: '.*'  # EU
+
 # Non-EU Countries
 al: '[J|K]\d{8}[A-Z]'   # Albania
 au: '\d{9}'             # Australia

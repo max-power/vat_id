@@ -85,7 +85,8 @@ describe VatId do
     'SE123456789001',
     'SI12345678',
     'SK1234567810',
-    'MXAAGB860519G31'
+    'MXAAGB860519G31',
+    'EU123ANCDEF2134'
   ].each do |code|
     describe code[0..1] do
       it "number #{code} should be valid" do
