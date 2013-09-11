@@ -1,0 +1,244 @@
+ve:
+  name: "Registro de Informacion Fiscal"
+  abbr: "RIF"
+  
+uy:
+  name: "Registro Unico de Contribuyentes"
+  abbr: "RUC"
+  
+do:
+  name: "Registro Nacional del Contribuyente"
+  abbr: "RNC"
+
+pe:
+  name: "Registro Unico de Contribuyentes"
+  abbr: "RUC"
+  
+py: 
+  name: "Registro Unico de Contribuyentes"
+  abbr: "RUC"
+
+pa:
+  name: "Registro Unico de Contribuyentes"
+  abbr: "RUC"
+
+ni:
+  name: "Registro Unico de Contribuyentes"
+  abbr: "RUC"
+  
+mx:
+  name: "Registro Federal de Contribuyentes"
+  abbr: "RFC"
+  
+hn:
+  name: "Registro Tributario Nacional"
+  abbr: "RTN"
+  
+gt:
+  name: "Número de Identificación Tributaria"
+  abbr: "NIT"
+  
+sv:
+  name: "Registro Tributario Nacional"
+  abbr: "RTN"
+
+ec:
+  name: "Número de Registro Unico de Contribuyentes"
+  abbr: RUC
+  
+cr:
+  name: "Cédula Jurídica"
+  abbr: ""
+  
+co:
+  name: "Número De Identificación Tributaria"
+  abbr: NIT
+
+cl:
+  name: "Rol Único Tributario"
+  abbr: "RUT"
+  
+br:
+  name: "Cadastro Nacional de Pessoa Jurídica"
+  abbr: "CNPJ"
+  
+bo:
+  name: "Número de Identificación Tributaria"
+  abbr: "NIT"
+  
+ar:
+  name: "Código Único de Identificación Tributaria"
+  abbr: "CUIT"
+  
+ua:
+  name: "Ідентифікаційний номер платника податків"
+  abbr: "ІНПП"
+  
+tr:
+  name: "Vergi Kimlik Numarası"
+  abbr: ""
+  
+ch:
+  name: "Mehrwertsteuernummer"
+  abbr: 
+    de: "MWST"
+    fr: "TVA"
+    it: "IVA"
+
+sr:
+  name: "Poreski identifikacioni broj"
+  abbr: "PIB"
+  
+sm:
+  name: "Codice operatore economico"
+  abbr: "C.O.E."
+  
+ru:
+  name: "Идентификационный номер налогоплательщика"
+  abbr: "ИНН"
+  
+ph:
+  name: "Tax Identification Number"
+  abbr: "TIN"
+  
+"no":
+  name: "Organisasjonsnummer"
+  abbr: "Orgnr"
+  
+ca:
+  name: 
+    en: "Business Number"
+    fr: "numéro d'entreprise"
+  abbr: 
+    en: "BN"
+    fr: "NE"
+
+by:
+  name: "Учетный номер плательщика"
+  abbr: "УНП"
+  
+au:
+  name: "Tax File Number"
+  abbr: "TFN"
+  
+al:
+  name: "Numrin i Identifikimit për Personin e Tatueshëm"
+  abbr: "NIPT"
+
+gb:
+  name: "Value added tax registration number"
+  abbr: "VAT Reg No"
+
+se:
+  name: "momsnummer"
+  abbr: "Momsnr."
+  
+es:
+  name: "Número de Identificación Fiscal"
+  abbr: "NIF"
+  
+si:
+  name: "Davčna številka"
+  abbr: "ID za DDV"
+  
+sk:
+  name: "Identifikačné číslo pre daň z pridanej hodnoty"
+  abbr: "IČ DPH"
+  
+ro:
+  name: "Cod de înregistrare în scopuri de TVA"
+  abbr: "CF"
+  
+po:
+  name: "Número de Identificação Fiscal"
+  abbr: "NIF"
+  
+pl:
+  name: "Numer Identyfikacji Podatkowej"
+  abbr: "NIP"
+  
+nl:
+  name: "Btw-nummer"
+  abbr: "Btw-nr."
+  
+mt:
+  name: "Vat reg. no."
+  abbr: "Vat No."
+  
+lu:
+  name: "Numéro d'identification à la taxe sur la valeur ajoutée"
+  abbr: "No. TVA"
+  
+lt:
+  name: "Pridėtinės vertės mokestis mokėtojo kodas"
+  abbr: "PVM kodas"
+
+lv:
+  name: "Pievienotās vērtības nodokļa reģistrācijas numurs"
+  abbr: "PVN"
+  
+it:
+  name: "Partita IVA"
+  abbr: "P.IVA"
+  
+ie:
+  name: "Value added tax identification no."
+  abbr: "VAT no"
+  
+hu:
+  name: "Közösségi adószám"
+  abbr: "ANUM"
+  
+el:
+  name: "Αριθμός Φορολογικού Μητρώου"
+  abbr: "ΑΦΜ"
+  
+de:
+  name: "Umsatzsteuer-Identifikationsnummer"
+  abbr: "USt-IdNr."
+  
+fr:
+  name: "Numéro d'identification à la taxe sur la valeur ajoutée"
+  abbr: "n° TVA"
+  
+fi:
+  name: "Arvonlisäveronumero"
+  abbr: "ALV nro"
+  
+ee:
+  name: "Käibemaksukohustuslase number"
+  abbr: "KMKR"
+  
+dk:
+  name: "Momsregistreringsnummer"
+  abbr: "CVR"
+  
+cz:
+  name: "Daňové identifikační číslo"
+  abbr: "DIČ"
+  
+cy:
+  name: "Αριθμός Εγγραφής Φ.Π.Α."
+  abbr: "ΦΠΑ"
+  
+hr:
+  name: "Osobni identifikacijski broj"
+  abbr: "OIB"
+
+bg:
+  name: "Идентификационен номер по ДДС"
+  abbr: "ДДС номер"
+
+be:
+  name: 
+    wl: "BTW identificatienummer"
+    fr: "Numéro de TVA"
+  abbr: 
+    wl: "BTW-nr"
+    fr: "n° TVA"
+    de: "Mwst-nr"
+    
+at: 
+  name: "Umsatzsteuer-Identifikationsnummer"
+  abbr: "UID"
+
