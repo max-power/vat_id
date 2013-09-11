@@ -64,4 +64,4 @@ py: ''                  # Paraguay
 pe: '\d{11}'            # Peru
 do: ''                  # Dominican Republic
 uy: ''                  # Uruguay
-ve: '[J|G|V|E]\d{9}'    # Venezuela
+ve: '[JGVE]\d{9}'       # Venezuela
