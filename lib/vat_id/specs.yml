@@ -1,67 +1,67 @@
 # https://en.wikipedia.org/wiki/Value_added_tax_identification_number
 
 # EU Countries
-at: 'U\d{8}'            # Austria
-be: '0\d{9}'            # Belgium
-bg: '\d{9,10}'          # Bulgaria
-hr: '\d{11}'            # Croatia
-cy: '[A-Z0-9]{9}'       # Cyprus
-cz: '\d{8,10}'          # Czech Republic
-dk: '\d{8}'             # Denmark
-ee: '\d{9}'             # Estonia
-fi: '\d{8}'             # Finland
-fr: '[A-Z0-9]{2}\d{9}'  # France
-de: '\d{9}'             # Germany
-el: '\d{9}'             # Greece
-hu: '\d{8}'             # Hungary
-ie: '\d[A-Z0-9]\d{5}[A-Z]' # Ireland
-it: '\d{11}'            # Italy
-lv: '\d{11}'            # Latvia
-lt: '(\d{9}|\d{12})'    # Lithuania
-lu: '\d{8}'             # Luxembourg
-mt: '\d{8}'             # Malta
-nl: '\d{9}B\d{2}'       # Netherlands
-pl: '\d{10}'            # Poland
-pt: '\d{9}'             # Portugal
-ro: '\d{2,10}'          # Romania
-sk: '\d{10}'            # Slovakia
-si: '\d{8}'             # Slovenia
-es: '[A-Z0-9]\d{7}[A-Z0-9]' # Spain
-se: '\d{10}01'          # Sweden
-gb: '(\d{9}|\d{12}|GD[0-4]\d{2}|HA[5-9]\d{2})' # UK
+AT: 'U\d{8}'            # Austria
+BE: '0\d{9}'            # Belgium
+BG: '\d{9,10}'          # Bulgaria
+HR: '\d{11}'            # Croatia
+CY: '[A-Z0-9]{9}'       # Cyprus
+CZ: '\d{8,10}'          # Czech Republic
+DK: '\d{8}'             # Denmark
+EE: '\d{9}'             # Estonia
+FI: '\d{8}'             # Finland
+FR: '[A-Z0-9]{2}\d{9}'  # France
+DE: '\d{9}'             # Germany
+EL: '\d{9}'             # Greece
+HU: '\d{8}'             # Hungary
+IE: '\d[A-Z0-9]\d{5}[A-Z]' # Ireland
+IT: '\d{11}'            # Italy
+LV: '\d{11}'            # Latvia
+LT: '(\d{9}|\d{12})'    # Lithuania
+LU: '\d{8}'             # Luxembourg
+MT: '\d{8}'             # Malta
+NL: '\d{9}B\d{2}'       # Netherlands
+PL: '\d{10}'            # Poland
+PT: '\d{9}'             # Portugal
+RO: '\d{2,10}'          # Romania
+SK: '\d{10}'            # Slovakia
+SI: '\d{8}'             # Slovenia
+ES: '[A-Z0-9]\d{7}[A-Z0-9]' # Spain
+SE: '\d{10}01'          # Sweden
+GB: '(\d{9}|\d{12}|GD[0-4]\d{2}|HA[5-9]\d{2})' # UK
 
-eu: '.*'  # EU
+EU: '.*'  # EU
 
 # Non-EU Countries
-al: '[JK]\d{8}[A-Z]'    # Albania
-au: '\d{9}'             # Australia
-by: '\d{9}'             # Belarus
-ca: '[A-Z0-9]{15}'      # Canada
-"no": '\d{9}(MVA)?'     # Norway
-ph: '\d{12}'            # Philippines
-ru: '(\d{10}|\d{12})'   # Russia
-sm: '\d{5}'             # San Marino
-rs: '\d{9}'             # Serbia
-ch: 'E[0-9]{9}(RC|HR)?(MWST|TVA|IVA)?' # Switzerland
-tr: '\d{10}'            # Turkey
-ua: '\d{12}'            # Ukraine
+AL: '[JK]\d{8}[A-Z]'    # Albania
+AU: '\d{9}'             # Australia
+BY: '\d{9}'             # Belarus
+CA: '[A-Z0-9]{15}'      # Canada
+'NO': '\d{9}(MVA)?'     # Norway
+PH: '\d{12}'            # Philippines
+RU: '(\d{10}|\d{12})'   # Russia
+SM: '\d{5}'             # San Marino
+RS: '\d{9}'             # Serbia
+CH: 'E[0-9]{9}(RC|HR)?(MWST|TVA|IVA)?' # Switzerland
+TR: '\d{10}'            # Turkey
+UA: '\d{12}'            # Ukraine
 
 # Latin American countries
-ar: '\d{11}'            # Argentina
-bo: ''                  # Bolivia
-br: '\d{14}'            # Brazil
-cl: '\d{9}'             # Chile
-co: '\d{10}'            # Colombia
-cr: '\d{9,12}'          # Costa Rica
-ec: '\d{13}'            # Ecuador
-sv: ''                  # El Salvador
-gt: '\d{8}'             # Guatemala
-hn: ''                  # Honduras
-mx: '[A-Z0-9]{3,4}\d{6}[A-Z0-9]{3}' # Mexico
-ni: ''                  # Nicaragua
-pa: ''                  # Panama
-py: ''                  # Paraguay
-pe: '\d{11}'            # Peru
-do: ''                  # Dominican Republic
-uy: ''                  # Uruguay
-ve: '[JGVE]\d{9}'       # Venezuela
+AR: '\d{11}'            # Argentina
+BO: ''                  # Bolivia
+BR: '\d{14}'            # Brazil
+CL: '\d{9}'             # Chile
+CO: '\d{10}'            # Colombia
+CR: '\d{9,12}'          # Costa Rica
+EC: '\d{13}'            # Ecuador
+SV: ''                  # El Salvador
+GT: '\d{8}'             # Guatemala
+HN: ''                  # Honduras
+MX: '[A-Z0-9]{3,4}\d{6}[A-Z0-9]{3}' # Mexico
+NI: ''                  # Nicaragua
+PA: ''                  # Panama
+PY: ''                  # Paraguay
+PE: '\d{11}'            # Peru
+DO: ''                  # Dominican Republic
+UY: ''                  # Uruguay
+VE: '[JGVE]\d{9}'       # Venezuela

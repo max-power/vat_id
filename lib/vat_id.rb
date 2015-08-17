@@ -28,12 +28,12 @@ class VatId
   end
   
   def valid?
-    !!specification && !!identifier.match(/^#{specification}$/)
+    !!identifier[/^#{specification}$/]
   end
   
   private
   
   def specification
-    self.class.specifications[country_code.downcase]
+    self.class.specifications[country_code]
   end
 end
