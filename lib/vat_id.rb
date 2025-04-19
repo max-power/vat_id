@@ -1,39 +1,57 @@
-require "yaml"
-require "vat_id/version"
-require "vat_id/validator" if defined? ActiveModel
+require 'yaml'
+require_relative 'vat_id/validator' if defined? ActiveModel
 
-class VatId
+class VatId < Data.define(:code)
+  SPEC_PATH = File.expand_path('vat_id/spec.yml', __dir__)
+  I18N_PATH = File.expand_path('vat_id/i18n.yml', __dir__)
+
   def self.specifications
-    @@specs ||= YAML.load_file(File.expand_path('vat_id/specs.yml', File.dirname(__FILE__)))
+    @specifications ||= YAML.load_file(SPEC_PATH)
+  end
+  
+  def self.translations
+    @translations ||= YAML.load_file(I18N_PATH)
   end
   
   def self.valid?(code)
     new(code).valid?
   end
   
-  def initialize(code)
-    @code = code.to_s.upcase.gsub(/[^A-Z0-9]/, '')
+  def initialize(code:)
+    super code: code.to_s.upcase.gsub(/[^A-Z0-9]/, '')
   end
   
   def country_code
-    @code[0..1]
+    code[0..1]
   end
   
   def identifier
-    @code[2..-1]
+    code[2..-1]
   end
   
   def to_s
-    @code
+    code
   end
   
   def valid?
-    !!identifier[/^#{specification}$/]
+    identifier.match? /^#{spec}$/
+  end
+  
+  def name
+    i18n['name']
+  end
+
+  def abbr
+    i18n['abbr']
   end
   
   private
   
-  def specification
-    self.class.specifications[country_code]
+  def spec
+    self.class.specifications.fetch(country_code)
+  end
+  
+  def i18n
+    self.class.translations.fetch(country_code)
   end
 end

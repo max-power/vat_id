@@ -1,111 +1,111 @@
-ve:
+VE:
   name: "Registro de Informacion Fiscal"
   abbr: "RIF"
   
-uy:
+UY:
   name: "Registro Unico de Contribuyentes"
   abbr: "RUC"
   
-do:
+DO:
   name: "Registro Nacional del Contribuyente"
   abbr: "RNC"
 
-pe:
+PE:
   name: "Registro Unico de Contribuyentes"
   abbr: "RUC"
   
-py: 
+PY: 
   name: "Registro Unico de Contribuyentes"
   abbr: "RUC"
 
-pa:
+PA:
   name: "Registro Unico de Contribuyentes"
   abbr: "RUC"
 
-ni:
+NI:
   name: "Registro Unico de Contribuyentes"
   abbr: "RUC"
   
-mx:
+MX:
   name: "Registro Federal de Contribuyentes"
   abbr: "RFC"
   
-hn:
+HN:
   name: "Registro Tributario Nacional"
   abbr: "RTN"
   
-gt:
+GT:
   name: "Número de Identificación Tributaria"
   abbr: "NIT"
   
-sv:
+SV:
   name: "Registro Tributario Nacional"
   abbr: "RTN"
 
-ec:
+EC:
   name: "Número de Registro Unico de Contribuyentes"
   abbr: RUC
   
-cr:
+CR:
   name: "Cédula Jurídica"
   abbr: ""
   
-co:
+CO:
   name: "Número De Identificación Tributaria"
   abbr: NIT
 
-cl:
+CL:
   name: "Rol Único Tributario"
   abbr: "RUT"
   
-br:
+BR:
   name: "Cadastro Nacional de Pessoa Jurídica"
   abbr: "CNPJ"
   
-bo:
+BO:
   name: "Número de Identificación Tributaria"
   abbr: "NIT"
   
-ar:
+AR:
   name: "Código Único de Identificación Tributaria"
   abbr: "CUIT"
   
-ua:
+UA:
   name: "Ідентифікаційний номер платника податків"
   abbr: "ІНПП"
   
-tr:
+TR:
   name: "Vergi Kimlik Numarası"
   abbr: ""
   
-ch:
+CH:
   name: "Mehrwertsteuernummer"
   abbr: 
     de: "MWST"
     fr: "TVA"
     it: "IVA"
 
-sr:
+SR:
   name: "Poreski identifikacioni broj"
   abbr: "PIB"
   
-sm:
+SM:
   name: "Codice operatore economico"
   abbr: "C.O.E."
   
-ru:
+RU:
   name: "Идентификационный номер налогоплательщика"
   abbr: "ИНН"
   
-ph:
+PH:
   name: "Tax Identification Number"
   abbr: "TIN"
   
-"no":
+"NO":
   name: "Organisasjonsnummer"
   abbr: "Orgnr"
   
-ca:
+CA:
   name: 
     en: "Business Number"
     fr: "numéro d'entreprise"
@@ -113,123 +113,123 @@ ca:
     en: "BN"
     fr: "NE"
 
-by:
+BY:
   name: "Учетный номер плательщика"
   abbr: "УНП"
   
-au:
+AU:
   name: "Tax File Number"
   abbr: "TFN"
   
-al:
+AL:
   name: "Numrin i Identifikimit për Personin e Tatueshëm"
   abbr: "NIPT"
 
-gb:
+GB:
   name: "Value added tax registration number"
   abbr: "VAT Reg No"
 
-se:
+SE:
   name: "momsnummer"
   abbr: "Momsnr."
   
-es:
+ES:
   name: "Número de Identificación Fiscal"
   abbr: "NIF"
   
-si:
+SI:
   name: "Davčna številka"
   abbr: "ID za DDV"
   
-sk:
+SK:
   name: "Identifikačné číslo pre daň z pridanej hodnoty"
   abbr: "IČ DPH"
   
-ro:
+RO:
   name: "Cod de înregistrare în scopuri de TVA"
   abbr: "CF"
   
-po:
+PO:
   name: "Número de Identificação Fiscal"
   abbr: "NIF"
   
-pl:
+PL:
   name: "Numer Identyfikacji Podatkowej"
   abbr: "NIP"
   
-nl:
+NL:
   name: "Btw-nummer"
   abbr: "Btw-nr."
   
-mt:
+MT:
   name: "Vat reg. no."
   abbr: "Vat No."
   
-lu:
+LU:
   name: "Numéro d'identification à la taxe sur la valeur ajoutée"
   abbr: "No. TVA"
   
-lt:
+LT:
   name: "Pridėtinės vertės mokestis mokėtojo kodas"
   abbr: "PVM kodas"
 
-lv:
+LV:
   name: "Pievienotās vērtības nodokļa reģistrācijas numurs"
   abbr: "PVN"
   
-it:
+IT:
   name: "Partita IVA"
   abbr: "P.IVA"
   
-ie:
+IE:
   name: "Value added tax identification no."
   abbr: "VAT no"
   
-hu:
+HU:
   name: "Közösségi adószám"
   abbr: "ANUM"
   
-el:
+EL:
   name: "Αριθμός Φορολογικού Μητρώου"
   abbr: "ΑΦΜ"
   
-de:
+DE:
   name: "Umsatzsteuer-Identifikationsnummer"
   abbr: "USt-IdNr."
   
-fr:
+FR:
   name: "Numéro d'identification à la taxe sur la valeur ajoutée"
   abbr: "n° TVA"
   
-fi:
+FI:
   name: "Arvonlisäveronumero"
   abbr: "ALV nro"
   
-ee:
+EE:
   name: "Käibemaksukohustuslase number"
   abbr: "KMKR"
   
-dk:
+DK:
   name: "Momsregistreringsnummer"
   abbr: "CVR"
   
-cz:
+CZ:
   name: "Daňové identifikační číslo"
   abbr: "DIČ"
   
-cy:
+CY:
   name: "Αριθμός Εγγραφής Φ.Π.Α."
   abbr: "ΦΠΑ"
   
-hr:
+HR:
   name: "Osobni identifikacijski broj"
   abbr: "OIB"
 
-bg:
+BG:
   name: "Идентификационен номер по ДДС"
   abbr: "ДДС номер"
 
-be:
+BE:
   name: 
     wl: "BTW identificatienummer"
     fr: "Numéro de TVA"
@@ -238,7 +238,7 @@ be:
     fr: "n° TVA"
     de: "Mwst-nr"
     
-at: 
+AT: 
   name: "Umsatzsteuer-Identifikationsnummer"
   abbr: "UID"
 
